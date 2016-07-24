@@ -1,4 +1,4 @@
-package com.luk3c;
+package lukas.demos.configserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
