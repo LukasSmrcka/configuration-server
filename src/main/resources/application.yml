@@ -11,9 +11,12 @@ spring:
     config:
       server:
         native:
+
           #Files can not be on classpath to have dynamic refresh working
           searchLocations: "classpath:/cloud-configs"
           #searchLocations: "file:D:/PropsRepo"
+
+        #Git properties repository config
         #git:
         #  uri: "https://githun.com/some-properties-repository"
         #  searchPaths: RepostiorySubfolderName

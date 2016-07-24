@@ -1,0 +1,16 @@
+
+server:
+  port: 8010
+
+eureka:
+  client:
+    serviceUrl:
+      #Should be comma separated list
+      #defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://localhost:8000/eureka/
+
+custom:
+  remoteKey: "Value from config server - app-one.yaml"
+
+
+
