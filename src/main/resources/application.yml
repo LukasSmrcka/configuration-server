@@ -14,8 +14,7 @@ spring:
 
           #Files can not be on classpath to have dynamic refresh working
           searchLocations: "classpath:/cloud-configs"
-          #searchLocations: "file:D:/PropsRepo"
-          #searchLocations: "classpath:/../../../cloud-configs"
+          #searchLocations: "file:D:/cloud-configs"
 
         #Git properties repository config
         #git:
