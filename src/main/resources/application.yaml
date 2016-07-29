@@ -1,0 +1,26 @@
+
+server:
+  port: 8002
+
+#native profile is to enable file system repository for configs
+spring:
+  profiles:
+    active: native
+
+  cloud:
+    config:
+      server:
+        native:
+          #Proper config of file system repository
+          #searchLocations: "file:D:/Projects/spring-cloud/cloud-configs"
+
+          #Files can not be on classpath to have dynamic refresh working, this is just for demo
+          searchLocations: "classpath:/cloud-configs"
+
+        #Git properties repository config
+        #git:
+        #  uri: "https://github.com/some-properties-repository"
+        #  searchPaths: RepostiorySubfolderName
+        #  username: name
+        #  password: pass
+
